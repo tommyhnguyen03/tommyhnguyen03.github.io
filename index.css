@@ -1,0 +1,63 @@
+body {
+    background-image: url("background5.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-color: rgb(249, 188, 255);
+    font-family: 'Exo', sans-serif;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+}
+
+#nav {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkgray;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}
+
+#nav li a:hover {
+    background-color: #96BBBB;
+}
+
+#content {
+    border: red solid 2px;
+    width: 68%;
+    margin: 16px auto auto auto;
+    text-align: center;
+    padding-bottom: 16px;
+    background-color: rgba(249, 188, 255,0.01);
+}
+
+table {
+    margin: auto;
+}
+
+#content ul, #content ol {
+    width: 25%;
+    margin: auto;
+}
+
+#imgh {
+    text-align: center;
+}
