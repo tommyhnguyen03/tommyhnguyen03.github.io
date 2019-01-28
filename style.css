@@ -54,7 +54,7 @@ table {
     margin: auto;
 }
 
-#rcontent {
+#rcontent, #pcontent {
     text-align: left;
     width: 68%;
     margin: 16px auto 16px auto;
@@ -62,7 +62,7 @@ table {
     background-color: rgba(249, 188, 255,0.01);
 }
 
-#rh { 
+#rh, #ph, #CYOA { 
     text-align: center;
     font-weight: bold;
 }
@@ -71,18 +71,26 @@ hr {
     border-color: black;
 }
 
-#rs {
+#rs, #ps {
     font-weight: bold;
 }
 
-#re {
+#re, #pe {
     font-weight: bold;
 }
 
-#rl {
+#rl, #pl {
     float: right;
 }
 
-#rt {
+#rt, #pt {
     font-style: italic;
+}
+
+#pcontent {
+    text-align: middle;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding-bottom: 16px;
+    background-color: rgba(249, 188, 255,0.01);
 }
